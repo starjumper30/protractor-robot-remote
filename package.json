@@ -1,0 +1,34 @@
+{
+  "name": "protractor-robot-remote",
+  "version": "1.0.0",
+  "description": "A Robot Framework remote server with Protractor integration. Write Page Objects in Typescript with Protractor and let your testers write the actual tests in Robot scripts.",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "tslint ./index.ts -t verbose",
+    "prebuild": "npm run lint",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starjumper30/protractor-robot-remote.git"
+  },
+  "keywords": [
+    "Protractor",
+    "Robot"
+  ],
+  "author": "Christina Hardin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starjumper30/protractor-robot-remote/issues"
+  },
+  "homepage": "https://github.com/starjumper30/protractor-robot-remote#readme",
+  "dependencies": {
+    "protractor": "^5.1.2",
+    "robotremote": "^1.3.0"
+  },
+  "devDependencies": {
+    "ts-lint": "^4.5.1",
+    "typescript": "^2.4.2"
+  },
+  "typings": "dist/index.d.ts"
+}
