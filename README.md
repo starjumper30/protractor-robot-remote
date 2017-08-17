@@ -7,4 +7,5 @@ Then your testers can write robot tests with keywords that invoke methods on the
 
 This pattern helps to keep clear separation between your page objects and your test cases and makes it easer for non-developer testers to write automated tests.
 
-[example app](https://github.com/starjumper30/protractor-robot-remote-example#readme)
+[Simple Example CLI App](https://github.com/starjumper30/protractor-robot-remote-example#readme)
+[Tour of Heroes Example App](https://github.com/starjumper30/toh-ngrx4-acceptance-tests#readme)
